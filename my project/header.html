@@ -1,0 +1,2020 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@98,342&display=swap" rel="stylesheet">
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/kepler-std');
+    </style>
+
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            
+        }
+
+        .container {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        #main {
+            
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #main>div>h4 {
+            margin-top: 5px;
+            color: #232222;
+            font-family: open sans-serif;
+            font-style: normal;
+            font-weight: 111;
+        }
+
+        .container>div>h4>img {
+            margin-top: 5%;
+            margin-right: 10%;
+        }
+
+        #img1 {
+            display: flex;
+            margin-right: 15px;
+            margin-top: 1%;
+            cursor: pointer;
+        }
+
+        #img1>div {
+            margin-left: 10px;
+            margin-right: 10px;
+
+
+        }
+
+        button {
+            margin-left: 25px;
+            padding-right: 10px;
+            border: none;
+            background-color: white;
+            font-size: 10px;
+        }
+
+        button>a {
+            text-decoration: none;
+            color: rgb(36, 34, 34);
+            font-size: 12px;
+        }
+
+        button>a>span {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: red;
+            margin-left: 20px;
+
+        }
+
+        .container1 {
+            margin-top: 2%;
+            width: 100%;
+            height: auto;           
+            display: flex;
+        }
+
+        .innerdiv {
+            margin: auto;
+        }
+
+        .innerdiv>a {
+            text-decoration: none;
+            font-family: open sans-serif;
+            color: #4f4d4d;
+            font-weight: 600;
+        }
+
+
+
+        .first {
+
+            width: 98%;
+            height: auto;
+            margin: auto;
+            margin-top: 2%;
+            display: flex;
+            margin-top: 30px;
+
+        }
+
+        .innerfirst {
+
+            width: 42%;
+            margin-bottom: 5px;
+            height: auto;
+
+
+        }
+
+        .innerfirst>div>img {
+            width: 100%;
+            cursor: pointer;
+        }
+
+        span {
+            color: red;
+            font-size: 12px;
+            padding-left: 2%;
+        }
+
+        h1 {
+            padding-left: 2%;
+            cursor: pointer;
+            font-size: 42px;
+
+        }
+
+        p {
+            font-size: 14px;
+            padding-left: 2%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 22PX;
+        }
+
+        h2 {
+            font-family: 'Kepler Std', sans-serif;
+            color: red;
+            padding-left: 1%;
+
+        }
+
+        #subdiv {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            gap: 8px;
+            width: 100%;
+            height: auto;
+            margin-top: 5px;
+
+        }
+
+        #subdiv>div {
+            width: 95%;
+            margin-bottom: 10px;
+
+
+        }
+
+        h3 {
+            padding-left: 2%;
+            cursor: pointer;
+            font-size: 22px;
+
+
+        }
+
+
+        .innersecond {
+            width: 30%;
+            height: auto;
+            margin-left: 15px;
+
+        }
+
+        .innersecond>div {
+            margin-bottom: 10px;
+        }
+
+
+        .innerthird {
+
+            width: 25%;
+            height: auto;
+        }
+
+        .innerthird>div {
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+
+        .innerthird>div>img {
+            width: 100%;
+            height: 80%;
+
+        }
+
+        .NATIONAL {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            gap: 15px;
+            margin-top: 15px;
+
+        }
+
+        .NATIONAL>div {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .NATIONAL>div>img {
+            width: 100%;
+        }
+
+        .CRYPTO {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            margin: auto;
+            margin-top: 15px;
+
+        }
+
+        img {
+            margin-left: 2%;
+        }
+
+        .CULTURE {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto;
+            width: 100%;
+            gap: 10px;
+            margin-top: 10px;
+
+        }
+
+        .CULTURE>div {
+            width: 95%;
+            margin: auto;
+        }
+
+        .CULTURE>div>img {
+            width: 100%;
+        }
+
+        .MAGAZINE {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            width: 100%;
+            gap: 15px;
+            margin-top: 10px;
+
+        }
+
+        .MAGAZINE>div {
+            width: 75%;
+
+        }
+
+        .MAGAZINE>div>div>img {
+            width: 100%;
+        }
+
+        .OUTLOOK {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto;
+            width: 80%;
+            gap: 25px;
+            margin-top: 30px;
+            margin: auto;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+
+        }
+
+        .OUTLOOK>div {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .OUTLOOK>div>img {
+            width: 80%;
+            border-radius: 50%;
+        }
+
+        h4 {
+            font-size: 21px;
+            font-family: 'Kepler Std', sans-serif;
+            margin-top: 10px;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        p1 {
+            font-family: 'Open Sans', sans-serif;
+            height: 25%;
+        }
+
+
+        .in {
+            margin-bottom: 30px;
+            margin-top: 30px;
+            border: 1px solid red;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 16px;
+
+
+
+        }
+
+        .SUBSCRIBE {
+            height: 40%;
+            margin-top: 15.5%;
+            margin-left: -25px;
+            color: white;
+            background-color: red;
+            padding-left: 10px 2px 10px 2px;
+        }
+
+        .WORLD {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto;
+            width: 100%;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .WORLD>div {
+            width: 95%;
+
+
+        }
+
+        .WORLD>div>img {
+            width: 100%;
+
+        }
+
+        .VIDEOS {
+            display: flex;
+            width: 96%;
+            margin: auto;
+
+        }
+
+        .VIDEOS>div {
+            width: 90%;
+            margin: auto;
+            height: auto;
+        }
+
+        .VIDEOS>div>img {
+            width: 100%;
+
+        }
+
+        #IPL {
+            width: 25%;
+            margin-left: 3%;
+
+        }
+
+        .PHOTOS {
+            display: flex;
+            width: 96%;
+            height: auto;
+            margin-top: 2%;
+            margin: auto;
+
+        }
+
+        .PHOTOS>div {
+            width: 24%;
+            height: auto;
+            margin-left: 2%;
+
+        }
+
+        .PHOTOS>div>img {
+            width: 100%;
+            margin-left: -2%;
+        }
+
+        .TRAVEL {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            width: 96%;
+            height: 555%;
+            gap: 15px;
+            margin-top: 10px;
+            margin: auto;
+        }
+
+        .TRAVEL>div {
+            width: 100%;
+            background: url("https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651566642.webp");
+            background-size: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            height: 600%
+        }
+
+        .TRAVEL>div>img {
+            width: 90%;
+            height: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+
+        }
+
+        .TRAVEL>div>h3 {
+            color: white;
+
+        }
+
+        .footer {
+            width: 100%;
+            margin: auto;
+            background-color: #212020;
+        }
+
+        #foot {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto;
+            gap: 15px;
+            width: 85%;
+            height: auto;
+
+        }
+
+
+        #foot>div {
+            width: 100%;
+            color: rgb(227, 234, 240);
+            margin-top: 20px;
+            margin-left: 10%;
+            margin-bottom: 20%;
+        }
+
+        #foot>div>div {
+            margin-left: 30%;
+            line-height: 24px;
+            color: grey;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+        }
+
+        #foot>div>div:hover {
+            cursor: pointer;
+            color: red;
+        }
+
+        .social {
+            display: flex;
+        }
+
+        .social>div>img {
+            width: 100%;
+            margin-left: 25%;
+            margin-top: 25%;
+            text-align: center;
+        }
+
+        .last {
+            width: 100%;
+            height: auto;
+            background-color: #181818;
+
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .last>div {
+            margin-left: 70px;
+            color: grey;
+            padding-top: 10px;
+            padding-bottom: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            display: flex;
+            cursor: pointer;
+
+
+        }
+
+
+        #Dig>div {
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+
+        #third {
+            /* display: flex; */
+            margin-top: 3%;
+            
+
+        }
+
+        #thirdInneer {
+
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30px;
+        }
+
+        #thirdInneer>div {
+            height: 100%;
+            padding-top: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        #thirdInneer>div:hover {
+            cursor: pointer;
+            background-color: rgb(179, 174, 174);
+            color: white;
+        }
+
+
+        /* Build a Routine Drop Down starts here*/
+
+        .BAR {
+            position: relative;
+        }
+
+        .drop {
+            display: none;
+        }
+
+        .outside,
+        .outsideSkin,
+        .outsideHair,
+        .outsideMakeup,
+        .outsideTools,
+        .outsideBath,
+        .outsideSelf,
+        .outsideFragrance,
+        .outsideNew {
+            background-color: rgb(179, 174, 174);
+            display: flex;
+            position: absolute;
+            z-index: 1;
+            top: 55px;
+            padding-top: 15px;
+        }
+
+        .inside {
+
+            width: 300px;
+
+        }
+
+        .inside div {
+            padding: 7px;
+            text-decoration: none;
+        
+        }
+
+        .inside>div>a {
+            text-decoration: none;
+            color: white;
+        }
+      
+
+        .inside div:first-child>a {
+            text-decoration: none;
+            font-weight: 250;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+
+        }
+
+        .inside div:hover {
+            background-color: rgb(231, 226, 226);
+        
+        }
+
+        .inside div:nth-child(1) {
+            margin: 5px 0px;
+            
+        }
+
+        .BAR:hover .drop {
+            display: block;
+        }
+
+
+        /* pos for other drop Downs */
+
+        .outside {
+            left: -150px;
+        }
+
+        .outsideSkin {
+            right: -290%;
+        }
+
+        .outsideHair {
+            right: -1180%;
+        }
+
+        .outsideMakeup {
+            right: -600%;
+        }
+
+        .outsideTools {
+            left: -550%
+        }
+
+        .outsideBath {
+            left: -550%;
+        }
+
+        .outsideSelf {
+            left: -600%
+        }
+
+        .outsideFragrance {
+            left: -630%;
+        }
+
+        .outsideNew {
+            left: -830%;
+        }
+        a{
+            text-decoration: none;
+            font-weight: 350;
+            color: grey;            
+        }
+        a:hover{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="main">
+            <div>
+                <p>Sunday,May01,2022</p>
+            </div>
+
+            <div>
+                <a href="header.html"> <img src="https://www.outlookindia.com/images/home_new_v4/logo_outlook.svg"
+                        alt="Title"></a>
+                <div>
+                    <button><a href="login.html">LOGIN</a></button>
+                    <span>|</span>
+                    <button><a href=""> SUBSCRIBE</a></button>
+                </div>
+            </div>
+
+
+            <div id="img1">
+                <div>
+                    <a href="https://www.facebook.com/Outlookindia"> <img
+                            src="https://www.outlookindia.com/images/home_new_v4/facebook_top.svg" alt="facebook"></a>
+                </div>
+                <div>
+                    <a href="https://twitter.com/outlookindia/"><img
+                            src="https://www.outlookindia.com/images/home_new_v4/twitter_top.svg" alt="twitter"></a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/outlookindia/"> <img
+                            src="https://www.outlookindia.com/images/home_new_v4/instagram_top.svg" alt="instagram"></a>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/user/OutlookMagazine"> <img
+                            src="https://www.outlookindia.com/images/home_new_v4/youtube_top.svg" alt="youtube"></a>
+                </div>
+            </div>
+      
+        </div>
+        <div id="third">
+            <div id="thirdInneer">
+                <div id="brand-link"><a href="header.html">HOME</a></div>
+                <div class="anniversaryLink"><a href="">OUTLOOK</a>
+                </div>
+                <div id="linkPagesPath"><a href="money.html">BUSSINESS</a></div>
+                <div class="BAR">
+                  <a href="money.html">  MONEY</a>
+                    <div class="drop">
+                        <div class="outside">
+
+                            <div class="inside">
+                                <div><a href="">Magazin</a></div>
+                            </div>
+                            <div class="inside">
+                                <div><a href="">Startups </a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="">Big Story</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href=""> Enterprise</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href=""> Strategy</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="">Pixstory</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BAR">
+                   <a href="money.html"> CRYPTO CORNER</a>
+                    <div class="drop">
+                        <div class="outsideSkin">
+                            <div class="inside">
+                                <div><a href="#">CRYPTO </a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">MONEY</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="">FINANCE </a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">RUPPEY</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BAR">
+                  <a href="travel.html">  TRAVEL</a>
+                    <div class="drop">
+                        <div class="outsideHair">
+                            <div class="inside">
+                                <div><a href="#">Home</a></div>
+
+                            </div>
+
+                            <div class="inside">
+                                <div><a href="#">SEE</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">STAY</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">EXPERIANCE</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">TRAVEL NEWS</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#"> VIDEO</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">RESPOCIBLE TOURISM</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BAR">
+                  <a href="ipl.html">  IPL</a>
+                    <div class="drop">
+                        <div class="outsideMakeup">
+                            <div class="inside">
+                                <div><a href="#">2022</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">WORDCUP</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">SPORTS</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">LASTEST ISSUE</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BAR">
+                  <a href="ipl.html">  SPORTS</a>
+                    <div class="drop">
+                        <div class="outsideTools">
+                            <div class="inside">
+                                <div><a href="">WORDCUP </a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="">HOCKEY</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="">CRICKET</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BAR">
+                  <a href="video.html">  VIDEOS</a>
+                    <div class="drop">
+                        <div class="outsideBath">
+                            <div class="inside">
+                                <div><a href="#">HD LASTEST ISSUE </a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">WORD FASIONS</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">OPINION </a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">ART</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">ENTERTAIMENT</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BAR">
+                   <a href="video.html"> ENTERTAIMENT</a>
+                    <div class="drop">
+                        <div class="outsideSelf">
+                            <div class="inside">
+                                <div><a href="">VIDEO </a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="">SPORTS</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href=""> SPOTLIGHT</a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="">                                     ARTICLE
+                                    </a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="BAR">
+                   <a href=""> PHOTOS</a>
+                    <div class="drop">
+                        <div class="outsideFragrance">
+                            <div class="inside">
+                                <div><a href=""> </a>MORNING</div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href=""> </a>EVENING</div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="">WEADING </a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href=""> SCHOOLS</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="BAR">
+                  <a href="magzin.html">  MAGAZINE</a>
+                    <div class="drop">
+                        <div class="outsideNew">
+                            <div class="inside">
+                                <div><a href="#"></a>NEWS</div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">WORD </a></div>
+
+                            </div>
+                            <div class="inside">
+                                <div><a href="#">BOOKS</a></div>
+                            </div>
+                            <!-- Latest brands -->
+                        </div>
+                    </div>
+                </div>
+                <div><a href="">HINDI</a></div>
+            </div>
+            <div>
+
+            </div>
+            <div></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <hr>
+    <!-- header is end -->
+
+
+    <div class="first">
+        <div class="innerfirst">
+            <div>
+                <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1651067639.webp">
+                <span>HINDI PROMOTION</span>
+                <h1>Efforts At Proselytising Hindi Abroad Have Fallen Flat Down The Ages</h1>
+                <p>Efforts to promote Hindi overseas have been ongoing for decades. And both the UPA and NDA governments
+                    have strived to have the language adopted officially by the United Nations.</p>
+                <div class="time">
+                    <span>Seema Guha</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+            </div>
+            <div id="subdiv">
+                <div>
+                    <span>MAHARASHTRA</span>
+                    <h3>Marathi Pride Is Passe, Shiv Sena's Apathy Hurts The Language</h3>
+                    <p>Despite several agitations by political parties—some violent—the Marathi language is on a
+                        downslide. It will take more than government efforts to promote...</p>
+                    <div class="time">
+                        <span>Seema Guha</span>
+                        | Last Updated at 5:31 pm
+                    </div><br>
+                    <hr>
+                </div>
+
+                <div>
+                    <span>TRANSLATION</span>
+                    <h3>In Another Tongue: How Translation As A Literary Form Has Gained Ground In India</h3>
+                    <p>Despite several agitations by political parties—some violent—the Marathi language is on a
+                        downslide. It will take more than government efforts to promote...</p>
+                    <div class="time">
+                        <span>Nawaid Anjum</span>
+                        | Last Updated at 5:31 pm
+                    </div><br>
+                    <hr>
+                </div>
+                <div>
+                    <span>OPINION</span>
+                    <h3>As Catholics And Hindus Fight Over Scripts, Konkani Loses Out In Goa</h3>
+                    <p>Despite several agitations by political parties—some violent—the Marathi language is on a
+                        downslide. It will take more than government efforts to promote...</p>
+                    <div class="time">
+                        <span>Mayabhushan Nagvenkar</span>
+                        | Last Updated at 5:31 pm
+                    </div>
+                </div>
+                <div>
+                    <span>POETRY</span>
+                    <h3>In Assam, Bengali Muslims Are Asserting Their Identity Through 'Miya Poetry'</h3>
+                    <p>Despite several agitations by political parties—some violent—the Marathi language is on a
+                        downslide. It will take more than government efforts to promote...</p>
+                    <div class="time">
+                        <span>Syeda Ambia Zahan</span>
+                        | Last Updated at 5:31 pm
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="innersecond">
+            <div>
+                <span>HINDI PROMOTION</span>
+                <h3>Efforts At Proselytising Hindi Abroad Have Fallen Flat Down The Ages</h3>
+                <p>Efforts to promote Hindi overseas have been ongoing for decades. And both the UPA and NDA governments
+                    have strived to have the language adopted officially by...</p>
+                <div class="time">
+                    <span>Seema Guha</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+            </div>
+            <div>
+                <span>KASHMIR</span>
+                <h3>Centre’s Five-language Formula For J&K Is Being Seen As Incremental Hindi Imposition</h3>
+                <p>Not only did the Centre’s push for a five-language formula for J&K in 2020 end Urdu’s status as its
+                    sole official language, it is also seen as an...</p>
+                <div class="time">
+                    <span>Seema Guha</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+            </div>
+            <div>
+
+                <h3>Marathi Pride Is Passe, Shiv Sena's Apathy Hurts The Language</h3>
+                <p>Despite several agitations by political parties—some violent—the Marathi language is on a downslide.
+                    It will take more than government efforts to promote...</p>
+                <div class="time">
+                    <span>Seema Guha</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+            </div>
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>Marathi Pride Is Passe, Shiv Sena's Apathy Hurts The Language</h3>
+                <p>Despite several agitations by political parties—some violent—the Marathi language is on a downslide.
+                    It will take more than government efforts to promote...</p>
+                <div class="time">
+                    <span>Seema Guha</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+            </div>
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>Marathi Pride Is Passe, Shiv Sena's Apathy Hurts The Language</h3>
+                <p>Despite several agitations by political parties—some violent—the Marathi language is on a downslide.
+                    It will take more than government efforts to promote...</p>
+                <div class="time">
+                    <span>Seema Guha</span>
+                    | Last Updated at 5:31 pm
+                </div>
+
+            </div>
+        </div>
+
+        <div class="innerthird">
+            <div>
+                <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651561894.webp">
+                <span>HINDI PROMOTION</span>
+                <h3>IPL 2022 Points Table: Can KKR Turn The Tables And Qualify For Playoffs?</h3>
+                <p>KKR defeated Rajasthan Royals on Monday and kept their IPL 2022 playoff hopes alive. KKR are
+                    languishing at seventh in the points table with 8 points in 10...</p>
+                <div class="time">
+                    <span>Koushik Paul</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+            </div>
+            <div>
+
+                <h3>Eid Mubarak 2022: Football Clubs, FIFA Wish Fans On Eid-ul-Fitr</h3>
+                <p>Eid-ul-Fitr is celebrated on the first day of the Shawwal month. In India, the Eid 2022 is celebrated
+                    on Tuesday.</p>
+                <div class="time">
+                    <span>Jayanta Oinam</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+            </div>
+        </div>
+
+    </div><br>
+
+    <!-- second div starter -->
+
+    <hr>
+    <h2 style="color: red;"> NATIONAL FEATURES</h2>
+    <div class="NATIONAL">
+
+
+        <div>
+            <img
+                src="https://imgnew.outlookindia.com/public/uploads/articles/2021/10/28/Untitled_design_-_2021-10-28T120837.751_.png">
+            <h3>Jodhpur Communal Clashes | Curfew Imposed In 10 Areas Of City After Clashes, Stone-Pelting After Eid
+                Namaz</h3>
+            <p>Internet services have also been suspended in Jodhpur, where a three-day Parshuram Jayanti festival is
+                also underway. </p>
+            <div class="time">
+                <span>Outlook Web Desk </span>
+                | Last Updated at 5:31 pm
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>PM Modi Arrives In Denmark After Concluding 'Productive' Germany Visit</h3>
+                <p>Modi will meet PM Mette Frederiksen and participate in India-Nordic Summit with PMs of Denmark,
+                    Iceland, Finland, Sweden, and Norway.</p>
+                <div class="time">
+                    <span>Outlook Web Desk</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <h3>Omicron XE Variant Confirmed In India For The First Time: Here's All You Need To Know</h3>
+                <p>Omicron sub-variant XE is the latest in a line of coronavirus strains that has stimulated people’s
+                    curiosity and has even raised concerns about increased...</p>
+                <div class="time">
+                    <span>Outlook Web Des</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>MP: No Curfew Relaxation In Khargone; People Asked To Celebrate Eid, Akshaya Tritiya At Home</h3>
+                <p>Curfew was clamped in Khargone after the violence on April 10, during which shops and houses were
+                    damaged, vehicles torched and stones hurled.</p>
+                <div class="time">
+                    <span>Outlook Web Desk</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+
+            <div>
+                <h3>NTAGI To Discuss Whether To Allow Early Administration Of Precaution Dose To Those Travelling Abroad
+                </h3>
+                <p>NTAGI will discuss whether to allow early administration of the precaution dose of Covid-19 vaccine
+                    to those travelling abroad for education, employment,...</p>
+                <div class="time">
+                    <span>PTI</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <h3>SIA To Issue Letters Rogatory To Request Pakistan Court For Information On Activities Of 3 Hizbul
+                    Terrorists</h3>
+                <p>Jammu and Kashmir State Investigation Agency will use the tool of letter rogatory and request a court
+                    in Pakistan for information about three...</p>
+                <div class="time">
+                    <span>PTI </span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- third div starter -->
+    <hr>
+    <h2 style="color: red;">BUSINESS & MONEY</h2>
+    <div class="NATIONAL">
+
+
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651148564.webp">
+            <h3> LIC Raises Rs 5,627 Crore From Anchor Investors Ahead Of IPO Led By Domestic Institutions</h3>
+            <p>Anchor Investors' (AIs) portion (5,92,96,853 equity shares) was subscribed at Rs 949 per equity share,
+                the insurer said in an early morning filing to exchanges </p>
+            <div class="time">
+                <span>Press Trust of India </span>
+                | Last Updated at 12:31 pm
+            </div>
+        </div>
+        <div>
+            <div>
+                <span>OUTLOOK BUSINESS</span>
+                <h3>Will Modi's Europe Tour Get India A Pie Of Global Supply Chain? </h3>
+                <p>As the Ukraine war prolongs, Europe is worried about maintaining its supplies and protecting its
+                    economies, especially since China’s role in the new order is...</p>
+                <div class="time">
+                    <span>Outlook Business Team</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <h3>Bullish Acquisition: Adani Wilmar Buys Multiple FMCG Brands At An Unclosed Amount</h3>
+                <p>The acquisition will fuel the next level of growth for AWL and widen the portfolio to cater to
+                    premium customer segments across rice and other value-added food...</p>
+                <div class="time">
+                    <span>Outlook Business Team</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>PM Modi Urges German Businesses To Invest In India’s Youth</h3>
+                <p>Modi, who arrived in Germany on Monday morning on the first leg of his three-nation Europe trip,
+                    co-chaired a business round table with German Chancellor Olaf...</p>
+                <div class="time">
+                    <span>Press Trust of India</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+
+            <div>
+                <h3>LIC IPO Opens Tomorrow, Should You Subscribe? Key Things To Know
+                </h3>
+                <p>Considering a single share costs Rs 949, you would require Rs 14,235 for a single lot of LIC IPO
+                    while the maximum you can invest is Rs 1,99,290</p>
+                <div class="time">
+                    <span>Outlook Business Team</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <h3>SIA To Issue Letters Rogatory To Request Pakistan Court For Information On Activities Of 3 Hizbul
+                    Terrorists</h3>
+                <p>Jammu and Kashmir State Investigation Agency will use the tool of letter rogatory and request a court
+                    in Pakistan for information about three...</p>
+                <div class="time">
+                    <span>PTI </span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!-- fourth div starter -->
+    <hr>
+    <h2 style="color: red;">CRYPTO CORNER</h2>
+    <div class="CRYPTO">
+
+
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651156413.webp">
+            <span>OUTLOOK MONEY</span>
+            <h3>Cryptic Crypto? Crime Creeps Steady In Crypto World; Cops Advise Caution To Investors</h3>
+            <p>Senior police officers have appealed to crypto investors to be aware before investing in crypto and other
+                digital assets, while some experts advised them to stay away from these risky assets altogether </p>
+            <div class="time">
+                <span>Harsh Kumar </span>
+                | Last Updated at 12:31 pm
+            </div>
+        </div>
+        <div>
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>Will Modi's Europe Tour Get India A Pie Of Global Supply Chain? </h3>
+                <p>Belgium has now made it compulsory for all virtual asset service providers in the country to register
+                    with its financial regulator FSMA.</p>
+                <div class="time">
+                    <span>Outlook Money Team</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>Send Crypto Payments Using Telegram Chat App With Zero Transaction Fees</h3>
+                <p>TON crypto blockchain payments can now be made using Telegram's chat messaging app. Read below to
+                    find out more about it.</p>
+                <div class="time">
+                    <span>Outlook Money Team</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+        <div>
+            <div>
+
+                <h3>India To Take A Considered View On Cryptocurrency: Nirmala Sitharaman</h3>
+                <p>The minister clarified that the government is open to promoting innovation and well-grounded progress
+                    made in the distributed ledger technologies, which are...</p>
+                <div class="time">
+                    <span>PTI</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>Stablecoins Bigger Threat To Indian Economy Than Cryptocurrencies?
+                </h3>
+                <p>RBI Dy. Governor T. Rabi Sankar’s comments that stablecoins present a bigger threat to economic
+                    stability than other cryptocurrencies has divided experts;...</p>
+                <div class="time">
+                    <span>Harsh Kumar</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+        <div>
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>All You Need To Know About Wholesale And Retail Central Bank Digital Currency (CBDC)</h3>
+                <p>Among different speculations, experts believe it would be interesting for India to have its own
+                    central bank digital currency (CBDC), because of the many...</p>
+                <div class="time">
+                    <span>Harsh Kumar</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>SHIBA INU Creates New Burn Mechanism; Users Get Rewarded For Burning SHIB Tokens
+                </h3>
+                <p>SHIBA INU (SHIB) have created a new ShibBurn portal wherein users can participate in burning their
+                    SHIB tokens and get rewarded for doing so.</p>
+                <div class="time">
+                    <span>Outlook Money Team</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- five div starter -->
+    <hr>
+    <h2 style="color: red;">SPORTS</h2>
+    <div class="CRYPTO">
+
+
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_1/IMAGE_1651578012.webp">
+            <h3>Eid Mubarak: IPL Teams Celebrate Eid-ul-Fitr In Style</h3>
+            <p>Watch Indian Premier League (IPL) teams celebrate Eid-ul-Fitr. Chennai Super Kings and Gujarat Titans
+                shared videos. </p>
+            <div class="time">
+                <span>Jayanta Oinam </span>
+                | Last Updated at 12:31 pm
+            </div>
+        </div>
+        <div>
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>Will Modi's Europe Tour Get India A Pie Of Global Supply Chain? </h3>
+                <p>Belgium has now made it compulsory for all virtual asset service providers in the country to register
+                    with its financial regulator FSMA.</p>
+                <div class="time">
+                    <span>Outlook Money Team</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>Send Crypto Payments Using Telegram Chat App With Zero Transaction Fees</h3>
+                <p>TON crypto blockchain payments can now be made using Telegram's chat messaging app. Read below to
+                    find out more about it.</p>
+                <div class="time">
+                    <span>Outlook Money Team</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+        <div>
+            <div>
+
+                <h3>India To Take A Considered View On Cryptocurrency: Nirmala Sitharaman</h3>
+                <p>The minister clarified that the government is open to promoting innovation and well-grounded progress
+                    made in the distributed ledger technologies, which are...</p>
+                <div class="time">
+                    <span>PTI</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>Stablecoins Bigger Threat To Indian Economy Than Cryptocurrencies?
+                </h3>
+                <p>RBI Dy. Governor T. Rabi Sankar’s comments that stablecoins present a bigger threat to economic
+                    stability than other cryptocurrencies has divided experts;...</p>
+                <div class="time">
+                    <span>Harsh Kumar</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+        <div>
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>All You Need To Know About Wholesale And Retail Central Bank Digital Currency (CBDC)</h3>
+                <p>Among different speculations, experts believe it would be interesting for India to have its own
+                    central bank digital currency (CBDC), because of the many...</p>
+                <div class="time">
+                    <span>Harsh Kumar</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+
+            <div>
+                <span>OUTLOOK MONEY</span>
+                <h3>SHIBA INU Creates New Burn Mechanism; Users Get Rewarded For Burning SHIB Tokens
+                </h3>
+                <p>SHIBA INU (SHIB) have created a new ShibBurn portal wherein users can participate in burning their
+                    SHIB tokens and get rewarded for doing so.</p>
+                <div class="time">
+                    <span>Outlook Money Team</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- six div starter -->
+    <hr>
+    <h2 style="color: red;"> NATIONAL FEATURES</h2>
+    <div class="NATIONAL">
+
+
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651136603.webp">
+            <h3>‘The Lunchbox’ To ‘Ustad Hotel’: 7 Indian Films That Told Stories Through Food</h3>
+            <p>said that language and the food choices of people change every 11 kilometres. Indian filmmakers and
+                artists have heavily relied on this culinary diversity to tell tales that not only reveal varied aspects
+                of Indian culture but also tell stories of resilience, love, hate and hope. </p>
+            <div class="time">
+                <span>Prateek Sur </span>
+                | Last Updated at 5:31 pm
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>Kangana Ranaut: Ajay Devgn Not Wrong To Say Hindi Is The National Language Of India</h3>
+                <p>Kangana Ranaut said denying Hindi as the national language was denying the central government and the
+                    Constitution.</p>
+                <div class="time">
+                    <span>Outlook Web Bureau</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <h3>The Fight Against Food Wastage Begins At Home</h3>
+                <p>Here are a few eye-opening recent films that showcase how much food gets wasted all over the world
+                </p>
+                <div class="time">
+                    <span>Prateek Sur</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <div>
+                    <h3>Top 5 OTT Releases This Week</h3>
+                    <p>From the Alia Bhatt Starrer 'Gangubai Kathiawadi' to 'Ozark' Season 4 Part 2 on Netflix, here’s
+                        our list of the top 5 titles that released on OTT, this week.</p>
+                    <div class="time">
+                        <span>Abeer Anjum</span>
+                        | Last Updated at 5:31 pm
+                    </div><br>
+                    <hr>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/Naomi_Judd_1651388721.webp">
+                <h3>NTAGI To Discuss Whether To Allow Early Administration Of Precaution Dose To Those Travelling Abroad
+                </h3>
+                <p>NTAGI will discuss whether to allow early administration of the precaution dose of Covid-19 vaccine
+                    to those travelling abroad for education, employment,...</p>
+                <div class="time">
+                    <span>PTI</span>
+                    | Last Updated at 5:31 pm
+                </div><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <h3>SIA To Issue Letters Rogatory To Request Pakistan Court For Information On Activities Of 3 Hizbul
+                    Terrorists</h3>
+            </div><br>
+            <hr>
+            <br>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- seven div starter -->
+    <hr>
+    <h2 style="color: red;"> CULTURE AND SOCIETY</h2>
+    <div class="CULTURE">
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651404613.webp" alt="">
+            <span>LABOUR DAY</span>
+            <h3>Labour Day: Mobility Of Humour</h3>
+            <p>ART (a risky thought) is a project done by animator and cartoonist Sunil Nampu and artist Riyas Komu in
+                collaboration</p>
+            <div class="time">
+                <span>Outlook Web Desk </span>
+                | Last Updated at 5:31 pm
+            </div>
+
+        </div>
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651398399.webp" alt="">
+
+            <h3>Fearless Collective Drops Five NFTs At India Art Fair Parallel Event </h3>
+            <p>Founder Shilo Shiv Suleman, on tiptoeing into the NFT universe and why she finds the Indian art world
+                very "static".</p>
+            <div class="time">
+                <span>Ornella D'souza </span>
+                | Last Updated at 5:31 pm
+            </div>
+        </div>
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651392939.webp" alt="">
+
+            <h3>The Paradox Of Bhojpuri: Vulgarity As An Alternative Tongue</h3>
+            <p>Vulgarity is an alternative tongue. Earlier, it alluded to the criminal classes but as it appears, in the
+                Kaliyuga everybody is a criminal, ...</p>
+            <div class="time">
+                <span>Rishabh Sriwastava </span>
+                | Last Updated at 5:31 pm
+            </div>
+        </div>
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651385802.webp" alt="">
+            <span>#WEEKENDREADS</span>
+            <h3>The Otherness of Belonging</h3>
+            <p>The lips submit to the address of the other, Letting the kite chasers and night growers belong,
+                Ghare-Baire.</p>
+            <div class="time">
+                <span>Ronald Tuhin D'rozario </span>
+                | Last Updated at 5:31 pm
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- eight div starter -->
+    <hr>
+    <h2 style="color: red;"> MAGAZINE</h2>
+    <div class="MAGAZINE">
+        <div>
+            <div>
+                <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651112806.webp" alt="">
+                <span>COVER STORY</span>
+                <h3>Hindi: The Urge To Build A National Consciousness Around A Language</h3>
+                <p>The move to make Hindi the national language is a political project, the language becoming a tool for
+                    constructing national unity
+                </p><br>
+                <hr>
+                <br>
+            </div>
+            <div>
+                <span>OPINION</span>
+                <h3>Hindi Chauvinism Hangs Like An Imperialist Spectre Over Rest Of India</h3>
+                <p>With Hindi being pushed by the Centre as Rashtra Bhasha, the spectre of language imperialism haunts
+                    the Indian Union</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <span>OPINION</span>
+                <h3>The Tamil-Dravidian Framework As A Secular Antithesis To Hindi-Hindu-Hindustan</h3>
+                <p>The government should be concerned that the younger generation dislikes language imperialism</p>
+                <br>
+                <hr><br>
+            </div>
+            <div>
+                <span>EMPLOYMENT/TRANSGENDERS</span>
+                <h3>Pictures Of Confidence: Transgenders Are Charting A New Path</h3>
+                <p>Transgenders face more mental and physical violence, as well as social stigma and discrimination,
+                    than any other community.</p>
+                <br>
+                <hr><br>
+            </div>
+            <div> <span>LAST PAGE</span>
+                <h3>Language Diary | An Ethnologist's View On Dying Andamanese Languages</h3>
+                <p>How does it feel to be the last speaker of a language? Or to witness a situation where the person
+                    talking to you is the very last speaker of her mother tongue?</p>
+                <br>
+                <hr><br>
+            </div>
+
+        </div>
+        <div>
+            <div>
+                <h2>ARCHIVES</h2><br>
+                <span>OPINION</span>
+                <h3>Beef In The Land Of Humans</h3>
+                <img style="width: 50%;"
+                    src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_3/IMAGE_1650456904.webp" alt="">
+                <p>To eat or not to eat? Liberal and progressive Goa is caught in the middle of a political battle over
+                    food habits.</p>
+                <br>
+                <hr><br>
+
+            </div>
+            <div>
+                <span>OPINION</span>
+                <h3>Mid-Day Meal Scheme: We Need No Politics</h3>
+                <img style="width: 50%;"
+                    src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_3/IMAGE_1650456904.webp" alt="">
+                <p>MDM menu cannot be allowed to be determined by political parties operating on myopic interests
+                    instead of food and nutrition scientists</p>
+                <br>
+                <hr><br>
+            </div>
+            <div> <span>OPINION</span>
+                <h3>A Pandit Must Know His Meat</h3>
+                <p>The Kashmiri Pandit will eat his rogan josh as if his life depended on it</p>
+                <br>
+                <hr><br>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- nine div starter -->
+
+
+    <h1 style="color: red; text-align: center; font-family: 'Kepler Std', sans-serif; "> CULTURE AND SOCIETY</h1>
+    <div class="OUTLOOK">
+
+
+        <div>
+            <img src="https://www.outlookindia.com/images/home_new_v4/newsletter/Entertainmenticons-05.jpg" alt="">
+            <h4>Ent. AR</h4>
+            <p1>Tired of the unceasing, ungainly internet entertainment updates? Walk dazzling lanes and by lanes with
+                Outlook.</p1>
+
+        </div>
+        <div>
+            <img src="https://www.outlookindia.com/images/home_new_v4/newsletter/Techicons-04.jpg" alt="">
+            <h4>Ent. AR</h4>
+            <p1>Tired of the unceasing, ungainly internet entertainment updates? Walk dazzling lanes and by lanes with
+                Outlook.</p1>
+
+        </div>
+        <div>
+            <img src="https://www.outlookindia.com/images/home_new_v4/newsletter/TheSmartSurfericons-03.jpg" alt="">
+            <h4>Tech in style</h4>
+            <p1>The right tech that defines you. Your aspirations. Your styles. Right in time.</p1>
+
+        </div>
+        <div>
+            <img src="https://www.outlookindia.com/images/home_new_v4/newsletter/Ambiticons-02.jpg" alt="">
+            <h4>Ambit</h4>
+            <p1>Know what's behind the apparent and what doesn't show. Your journey into the myriad shades of truth with
+            </p1>
+
+        </div>
+        <div>
+            <img src="https://www.outlookindia.com/images/home_new_v4/newsletter/TheCoffeicons-01.jpg" alt="">
+            <h4>The Coffer</h4>
+            <p1>Money market essentials, analysis and data delivered to your mailbox with precision timing.
+            </p1>
+
+        </div>
+        <input class="in" type="text" placeholder="Enter Your Email">
+        <button class="SUBSCRIBE">SUBSCRIBE</button>
+
+
+
+
+    </div>
+
+    <!-- ten div starter -->
+    <br>
+    <hr>
+    <h2 style="color: red;"> WORLD NEWS</h2>
+    <div class="WORLD">
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651497564.webp" alt="">
+            <h3>Russia: Artillery Hit 400 Targets In Last Day</h3>
+            <p>The Russian military says its artillery has hit over 400 Ukrainian targets during the last day.</p>
+            <div class="time">
+                <span>AP</span>
+                | Last Updated at 10:25 pm
+            </div>
+
+        </div>
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651290196.webp" alt="">
+            <h3>North Korea Fires Ballistic Missile Amid Rising Animosities</h3>
+            <p>North Korea has launched a ballistic missile toward its eastern waters on Wednesday, South Korean and
+                Japanese officials said.</p>
+            <div class="time">
+                <span>AP</span>
+                | Last Updated at 10:25 pm
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>North Korea Fires Ballistic Missile Amid Rising Animosities</h3>
+                <p>North Korea has launched a ballistic missile toward its eastern waters on Wednesday, South Korean and
+                    Japanese officials said.</p>
+                <div class="time">
+                    <span>AP</span>
+                    | Last Updated at 10:25 pm
+                </div><br>
+                <hr><br>
+
+            </div>
+            <div>
+                <h3>North Korea Fires Ballistic Missile Amid Rising Animosities</h3>
+                <p>North Korea has launched a ballistic missile toward its eastern waters on Wednesday, South Korean and
+                    Japanese officials said.</p>
+                <div class="time">
+                    <span>AP</span>
+                    | Last Updated at 10:25 pm
+                </div><br>
+                <hr><br>
+            </div>
+        </div>
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1650555716.webp" alt="">
+            <h3>President Putin May Undergo Cancer Treatment And Handover Power Amid Russia-Ukraine War</h3>
+            <p>President Putin May Undergo Cancer Treatment And Handover Power Amid Russia-Ukraine War</p>
+            <div class="time">
+                <span>Outlook Web Desk</span>
+                | Last Updated at 10:25 pm
+            </div>
+        </div>
+    </div>
+    <!-- eleven div starter -->
+    <br>
+    <hr>
+    <h2 style="color: red;"> VIDEO</h2>
+    <div class="VIDEOS">
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_0/IMAGE_1650728685.webp" alt="">
+            <h3>Watch | Our Food, Their Food</h3>
+            <p>At a time when food has transcended its essential, biological need to become a battlefield, here is a
+                look at India’s gastronomic diversity and how we have...</p>
+        </div>
+        <div id="IPL">
+            <div>
+                <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_3/sddefault_1651576978.jpg"
+                    alt="">
+                <h3>Watch | Dr Mansukh Lal Mandaviya, Minister of Health and Family Welfare Appreciates Outlook Poshan
+                    2.0</h3>
+            </div>
+            <div>
+                <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_3/hqdefault_1651577266.jpg"
+                    alt="">
+                <h3>IPL 2022: RR Edgy After Loss Vs KKR, Coach Sangakkara Wants Better Batting Show</h3>
+            </div>
+            <div>
+                <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_3/sddefault_1651576978.jpg"
+                    alt="">
+                <h3>Nitish Rana's Honest Confession After KKR Scores Crucial Win Vs RR In IPL 2022</h3>
+            </div>
+        </div>
+
+    </div>
+    <!-- 11th div starter -->
+    <br>
+    <hr>
+    <h2 style="color: red;">PHOTOS</h2>
+    <div class="PHOTOS">
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/LIC_IPO_1651644653.webp" alt="">
+            <h3>Day In Pics: May 04, 2022</h3>
+
+        </div>
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651642508.webp" alt="">
+            <h3>UEFA Champions League: Liverpool Survive Scare Vs Villareal, Enter Final</h3>
+        </div>
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651627643.webp" alt="">
+            <h3>IPL 2022, Match 48: Punjab Kings End Gujarat Titans' Winning Run - In Pics
+            </h3>
+        </div>
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651648396.webp" alt="">
+            <h3>Protests Held Against Overturning Abortion Rights In US
+
+            </h3>
+        </div>
+    </div><br>
+    <hr>
+    <!-- ndfdshdhds -->
+    <h2 style="color: red;">TRAVEL</h2>
+    <div class="TRAVEL">
+        <div>
+
+            <h3>The World's First NFT Flight Ticket Was Sold At A Live Auction And You Will Never Guess The Prize</h3>
+        </div>
+        <div>
+
+            <h3>The World's First NFT Flight Ticket Was Sold At A Live Auction And You Will Never Guess The Prize</h3>
+        </div>
+        <div>
+
+            <h3>The World's First NFT Flight Ticket Was Sold At A Live Auction And You Will Never Guess The Prize</h3>
+        </div>
+        <div>
+
+            <h3>The World's First NFT Flight Ticket Was Sold At A Live Auction And You Will Never Guess The Prize</h3>
+        </div>
+    </div>
+    <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br>
+    <br><br> <br><br> <br><br> <br><br> <br>
+    <hr>
+    <h2 style="color: red;">SPOTLIGHT</h2>
+    <div class="PHOTOS">
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651660328.webp" alt="">
+        </div>
+        <div>
+            <h3>Bajrangi Prasad Yadav Gives His Insight On The Changing Agriculture & Environmental Reforms</h3>
+            <p>With the motto to bring extraordinary changes that trigger growth and help the marginalized section of
+                society manifest their strong opinions among the public,...</p>
+        </div>
+        <div>
+            <h3>Common Features Of Economic Crises– Dr.Yasam Ayavefe
+            </h3>
+            <p>There are a lot of notions for an economic crisis to occur. Perhaps the causes of the economic crisis
+                today, the most serious since the war, can probably be...</p>
+        </div>
+        <div>
+            <h3>3 Coins Rising In The Last 2 Months: Seesaw Protocol (SSW), Apecoin (APE), And Aave (AAVE)</h3>
+            <p>From the beginning of 2022, the decrease in ETH’s price was 20% and the decrease in BTC’s price was
+                17.5%. Again, this year, the decrease in ETH’s market...</p>
+        </div>
+    </div><br>
+    <hr>
+    <h2 style="color: red;">BUSINESS SPOTLIGHT</h2>
+    <div class="PHOTOS">
+        <div>
+            <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1651667626.webp" alt="">
+
+
+        </div>
+        <div>
+            <h3>'The Lord Is My Shepherd' FB Page By Ranen Digital Media Pvt Ltd Spreads Smiles And Inspiration
+                Worldwide</h3>
+            <p>Dr. Richardson Khristi is the man behind his incredible FB pages that are all about motivating people and
+                positively impacting their lives.</p>
+        </div>
+        <div>
+
+
+            <h3>Braving All Odds, How Jeremy Foo Built A Niche For Himself In The World Of Entrepreneurship
+            </h3>
+            <p>When Covid swept the world, both the entrepreneur and travel bug within Foo led to a new idea that
+                germinated in his mind, founding yet another company called...</p>
+        </div>
+        <div>
+
+            <h3>Largest Contract Manufacturing Pharma Company Akums Acquires Ankur Drugs And Pharma Ltd.’s HP Plant
+            </h3>
+            <p>The facility acquired by Akums Drugs & Pharmaceuticals Ltd is one of largest drug manufacturing
+                facilities in the country.</p>
+        </div>
+    </div><br>
+    <br>
+    <!-- footer tha starter -->
+
+    <div class="footer">
+        <div id="foot">
+            <div>
+                <h4>Main Stories</h4>
+                <br>
+                <div>Main Stories Magazine</div>
+                <div>NATIONAL</div>
+                <div>INTERNATIONAL</div>
+                <div> BUSINESS</div>
+                <div> OPINIONS</div>
+                <div> BOOK REVIEWS</div>
+                <div> THE NEWS</div>
+                <div>SPORTS</div>
+                <div>ART & ENTERTAINMENT</div>
+            </div>
+
+            <div>
+                <h4>Traveller</h4>
+                <br>
+                <div>TRAVELOGUES
+                </div>
+                <div> WEEKEND BREAKS
+                </div>
+                <div> HOLIDAYS WITH OT
+                </div>
+                <div> PHOTO FEATURES
+                </div>
+                <div> HOTELS
+                </div>
+                <div> GUIDEBOOKS</div>
+            </div>
+
+            <div>
+                <h4>Money</h4>
+                <br>
+                <div>Mutual Funds</div>
+                <div> Insurance</div>
+                <div> Equity</div>
+                <div> Fixed Assets</div>
+                <div> Banking</div>
+                <div> ASK</div>
+            </div>
+            <div>
+                <h4>Business</h4>
+                <br>
+                <div>THE BIG STORY</div>
+                <div> SPECIALS</div>
+                <div> PERSPECTIVE</div>
+                <div> PIXSTORY</div>
+                <div> ENTERPRISE</div>
+                <div> STRATEGY</div>
+                <div> MARKETS</div>
+                <div> C'EST LA VIE</div>
+            </div>
+            <div>
+                <h4>Social Media</h4>
+                <br>
+                <div class="social">
+                    <div>Facebook</div>
+                    <div>
+                        <img src="https://www.outlookindia.com/images/home_new_v4/facebook_top.svg" alt="">
+                    </div>
+                </div>
+                <div class="social">
+                    <div>twitter</div>
+                    <div>
+                        <img src="https://www.outlookindia.com/images/home_new_v4/twitter_top.svg" alt="">
+                    </div>
+                </div>
+                <div class="social">
+                    <div>Instagram</div>
+                    <div>
+                        <img src="https://www.outlookindia.com/images/home_new_v4/instagram_top.svg" alt="">
+                    </div>
+                </div>
+                <div class="social">
+                    <div>Youtube</div>
+                    <div>
+                        <img src="https://www.outlookindia.com/images/home_new_v4/youtube_top.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            <div>AboutUs</div>
+            <div>Contact Us</div>
+            <div>Subscribe</div>
+            <div>Copyright & Disclaimer</div>
+            <div>Osm Awards</div>
+            <div>Complianc</div>
+            <div>Poshan</div>
+            <div id="Dig">
+                <div> © 2022 Outlook Digital</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
